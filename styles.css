@@ -1,0 +1,62 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: fixed;
+    background: url(https://cdn.wallpapersafari.com/52/54/e0QpE4.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/*body {
+    margin-left: 10px;
+    margin-right: 10px;
+}*/
+html,body {
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: -3px;
+    -moz-text-decoration-style: wavy;
+    color: darkblue;
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3em;
+}
+#left_footer {
+    text-align: left;
+    vertical-align: bottom;
+}
+#right_footer {
+    text-align: right;
+}
+#footer_cont > div {
+    flex-basis: 50%;
+}
+#footer_cont {
+    display: flex;
+    flex-wrap: wrap;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+#holder{
+    text-align:center;
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+#idea {
+    width: 75%;
+}
